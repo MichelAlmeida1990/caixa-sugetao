@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 700px;
+    height: 550px;
+    border: 2px solid rgb(216, 208, 208);
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(53, 53, 156);
+    color: aliceblue;
+}
+
+.logo-cabecalho {
+    font-weight: 300;
+    padding: 15px;
+}
+
+.container-sugestao {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.titulo-sugestao {
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgb(53, 53, 156);
+}
+
+.caixa-texto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+span {
+    color: rgb(53, 53, 156);
+}
+
+input {
+    width: 400px;
+    height: 150px; 
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-color: black;
+    border-radius: 5px;
+}
+
+button {
+    width: 400px;
+    height: 30px;
+    padding: 0 auto;
+    color: aliceblue;
+    background-color: rgb(53, 53, 156);
+    border-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px black;
+    
+    
+}
